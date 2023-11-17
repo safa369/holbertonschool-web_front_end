@@ -207,14 +207,14 @@ ul.row {
     background: var(--color-black);
 }
 
-.footer-adress{
+.footer-address {
     color: var(--text-color);
 }
 
-.social-link{
+.social-link {
     display: block;
 }
 
-.social-link > svg{
-    fill:var(--text-color);
+.social-link > svg {
+    fill: var(--text-color);
 }
