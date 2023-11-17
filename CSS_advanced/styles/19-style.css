@@ -104,7 +104,7 @@ a:active {
 
 ul.row {
     margin: 0;
-    padding: none;
+    padding: 0;
     list-style: none;
 }
 
@@ -118,16 +118,6 @@ ul.row {
     width: 50%;
     float: left;
     padding: 0.5rem;
-}
-
-.footer-copyright {
-    margin: none;
-    font-size: var(--font-size-small);
-    color: var(--text-color);
-}
-
-.footer ul{
-    text-align: right
 }
 
 .container{
@@ -193,4 +183,13 @@ ul.row {
 
 .footer{
     padding: var(--footer-padding)
+}
+.footer-copyright {
+    margin: none;
+    font-size: var(--font-size-small);
+    color: var(--text-color);
+}
+
+.footer ul{
+    text-align: right;
 }
