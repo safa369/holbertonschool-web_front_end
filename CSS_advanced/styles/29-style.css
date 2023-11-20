@@ -52,7 +52,7 @@ html {
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-white);
+    --nav-item-link-hover: var(--color-primary);
 
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -178,20 +178,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     list-style: none;
 }
-.nav .nav-item::before{
-    content: '';
-    position: absolute;
-    top:0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 0.2rem;
-}
-
-.nav .nav-item:hover .nav-link::before{
-    background-color: var(--color-primary);
-    width: 100%;
-}
 
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
@@ -200,6 +186,10 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
+}
+.nav.nav-item:hover .nav-link::before{
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 .nav .nav-link {
@@ -211,7 +201,14 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-item-link-hover);
 }
 
-
+.nav .nav-link::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+}
 
 ul.row {
     margin: 0;
