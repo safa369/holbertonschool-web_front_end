@@ -70,8 +70,6 @@ html {
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
-
-    --objectif-fit: cover;
 }
 
 body {
@@ -334,7 +332,7 @@ ul.row {
 .card-work .card-image img{
     height: 30rem;
     width: 100%;
-    object-fit: var(--objectif-fit);
+    object-fit: cover;
     vertical-align:  bottom;
 }
 .card-work .card-inner{
