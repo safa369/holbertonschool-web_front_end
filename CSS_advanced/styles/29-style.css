@@ -172,6 +172,7 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
+
 .nav {
     margin: 0;
     padding: 0;
@@ -187,7 +188,8 @@ h1, h2, h3, h4, h5, h6 {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav.nav-item:hover .nav-link::before{
+
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
@@ -201,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link::before{
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
