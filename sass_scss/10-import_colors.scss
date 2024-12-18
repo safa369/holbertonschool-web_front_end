@@ -1,5 +1,5 @@
 /*import file*/
-@import '10-colors.scss' as colors;
+@use '10-colors.scss' as colors;
 .red{
     color: colors.$red;
 }
