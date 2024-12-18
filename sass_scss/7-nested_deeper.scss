@@ -1,0 +1,13 @@
+/*nested deeper*/
+$font_size1:14px;
+$font_size2:16px;
+$font_size3:12px;
+body{
+    font-size: $font_size1;
+    h1{
+        font-size: $font_size2;
+        &.smaller{
+            font-size: $font_size3;
+        }
+    }
+}
