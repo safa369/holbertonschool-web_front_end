@@ -1,0 +1,9 @@
+/*nested hover*/
+$text_color:#FF0000;
+$text-color_h:#00FF00;
+button{
+    color: $text_color;
+    :hover{
+        color: $text-color_h;
+    }
+}
